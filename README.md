@@ -1,4 +1,4 @@
-Welcome to the better Eventbrite ♥️
+Welcome to the better Eventbrite ♥️ made in Paris by Momo Polo and Yannick
 
 to do list:
 
@@ -14,13 +14,9 @@ rails db:migrate
 rspec
 
 rails console
-Créer un utilisateur 
 
 u = User.create
 
 e = Event.create
 
 a = Attendance.create(event: e, user: u, stripe_customer_id: "123")
-
-Made by 
- Momo Polo Yannick
