@@ -20,3 +20,7 @@ u = User.create
 e = Event.create
 
 a = Attendance.create(event: e, user: u, stripe_customer_id: "123")
+
+#Et pour voir le tableau des inscrits écrire ceci dans la console: 
+
+tp Attendance.all
